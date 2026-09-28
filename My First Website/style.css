@@ -1,0 +1,145 @@
+body {background: lightblue;
+}
+h1 {color: darkblue;
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid black;
+    width: 400px;
+    height: 45px;
+    margin: auto;
+    background-color: lightblue;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px grey;
+    text-transform: uppercase;
+    opacity: 1;
+}
+p {color: rgb(26, 42, 114);
+        margin-bottom: 15px;
+        font-family: Arial;
+        font-weight: bold;
+        line-height: 1.6;
+        width: 500px;
+        height: 80px;
+        letter-spacing: 1px;
+        text-transform: capitalize;
+        text-align: justify;
+        text-shadow: 4px 4px 6px rgb(151, 145, 145);
+        text-indent: 30px;
+        word-spacing: 9px;
+        overflow-x: hidden;
+        overflow-y: auto;
+} 
+h2 {color: purple;
+    text-decoration: underline;
+    font-style: italic;
+    font-size: 30px;
+    font-variant: small-caps;
+    font-stretch: condensed;
+    font: italic bold 30px arial ;
+    display: block;
+    width: 200px;
+    padding:20px;
+    border: 2px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px grey;
+    background-color: white;
+    line-height:  1,5;
+    text-align: center;
+}
+.contact-title {
+    width: 300px;
+    background-color: purple; 
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-card {
+    width: 100%;
+    transition: 0.4s ease;  
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid rgb(0, 0, 0);
+    box-sizing: border-box;
+    letter-spacing: 1px;
+    text-align: center;
+    max-width: 200px; 
+    display: block;
+    align-items: center;
+    
+}
+.section-card:hover {
+    transform: translateY(-5px) scaleX(1.05) rotate(1deg);
+    box-shadow: 8px 8px 20px grey;
+    background-color: black;
+    color: white;
+    cursor: pointer;    
+} 
+.goals-card {
+    background-color: royalblue;
+    color: white;
+    transition: 0.4s ease;
+    padding-left: 25px;
+    letter-spacing: 1px;
+    width: 200px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    text-align: center;
+    align-self: center;
+}
+.goals-card:hover {
+    transform: translateX(5px) scale(1.05) rotate(3deg);
+    box-shadow: 8px 8px 15px grey;
+    cursor: pointer;
+    transition: 0.4s ease;
+}
+.links-card {
+    background-color: gold;
+    color: black;
+    transition: 0.4s ease;
+    letter-spacing: 2px;
+    border: 2px solid rgb(0, 0, 0);
+    transform-origin: left center;
+    width: 200px;
+    padding: 15px 15px 15px 15px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.links-card:hover {
+transform: scale(1.15) rotate(-1.5deg);
+box-shadow: 8px 8px 15px grey;
+ cursor: pointer;
+ background-color: black;
+ color: white;
+}
+.container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: baseline;
+}
+ul {
+    position: relative;
+    z-index: 1;
+}
+@media (max-width: 1200px) {
+    .section-card,
+    .goals-card,
+    .links-card {
+        width: 90%;
+        font-size: 16px;
+    }
+}
+img {
+    width: 300px;
+    border-radius: 10%;
+}
